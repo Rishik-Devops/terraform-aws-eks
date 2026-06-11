@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "demo-terraform-eks-state-s3-bucket"
+    bucket         = "rishik321-demo-terraform-eks-state-s3-bucket"
     key            = "terraform.tfstate"
-    region         = "us-east-1"
+    region         = "us-west-2"
     dynamodb_table = "terraform-eks-state-locks"
     encrypt        = true
   }
