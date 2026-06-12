@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "rishik321-demo-terraform-eks-state-s3-bucket"
-
+ bucket = "rishik321-tf-state-1781257683"
+ 
   lifecycle {
     prevent_destroy = false
   }
